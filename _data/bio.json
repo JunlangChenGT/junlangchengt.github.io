@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "JunlangChenGT", "url": "http://github.com/JunlangChenGT" },
-      { "network": "linkedin",  "url": "https://www.linkedin.com/in/junlang-chen-a89546189/" },
+      { "network": "linkedin", "username": "Junlang Chen", "url": "https://www.linkedin.com/in/junlang-chen-a89546189/" },
     ]
   },
   
@@ -70,8 +70,19 @@
     }
   ],
   
-  "volunteer": [
-
+  "activities": [
+    { "name": "Texas Aerial Robotics",
+      "startDate": "2018",
+      "endDate": "2019",
+    },
+    { "name": "First Robotics Competition",
+      "startDate": "2023",
+      "endDate": "2014",
+    },
+    { "name": "VEX Robotics Competition",
+      "startDate": "2009",
+      "endDate": "2015",
+    },
   ],
   
   "awards": [
