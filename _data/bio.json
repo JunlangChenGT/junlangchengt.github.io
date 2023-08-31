@@ -71,15 +71,15 @@
   ],
   
   "activities": [
-    { "name": "Texas Aerial Robotics",
+    { "title": "Texas Aerial Robotics",
       "startDate": "2018",
       "endDate": "2019",
     },
-    { "name": "First Robotics Competition",
+    { "title": "First Robotics Competition",
       "startDate": "2023",
       "endDate": "2014",
     },
-    { "name": "VEX Robotics Competition",
+    { "title": "VEX Robotics Competition",
       "startDate": "2009",
       "endDate": "2015",
     }
