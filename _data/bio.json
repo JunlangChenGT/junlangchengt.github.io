@@ -82,7 +82,7 @@
     { "name": "VEX Robotics Competition",
       "startDate": "2009",
       "endDate": "2015",
-    },
+    }
   ],
   
   "awards": [
@@ -90,7 +90,7 @@
       "title": "International Aerial Robotics Competition 2019 Best Tech Paper",
       "date": "2019",
       "awarder": "International Aerial Robotics Competition",
-      "summary": "asdf"
+      "summary": "The International Aerial Robotics Competition runs an annual event where teams from around the world take their custom UAVs to complete challenging, predetermined tasks in a GPS denied environment. The same mission will rerun annually until a team manages to beat it."
     }
   ],
   
