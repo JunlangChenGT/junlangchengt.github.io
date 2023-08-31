@@ -10,16 +10,18 @@
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "JunlangChenGT", "url": "http://github.com/JunlangChenGT" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "https://www.linkedin.com/in/junlang-chen-a89546189/" },
+      { "network": "linkedin",  "url": "https://www.linkedin.com/in/junlang-chen-a89546189/" },
     ]
   },
+  
   "interests": [
     { "name": "Aerospace Engineering" },
     { "name": "Physics" },
-    { "name": "Additive Manufacturing" },
+    { "name": "Motorsport" },
     { "name": "Robotics" },
     { "name": "3D Modelling" }
   ],
+  
   "skills": [
     {
       "name": "Languages and Frameworks",
@@ -30,6 +32,7 @@
       "keywords": [ "Kali Linux", "Git/GitHub"]
     }
   ],
+  
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
@@ -39,75 +42,47 @@
       "endDate": "Present",
       "courses": [
       ]
+    },
+    {
+      "institution": "University of Texas at Austin, Austin, TX",
+      "area": "Physics, Space Science Track",
+      "studyType": "B.S.",
+      "startDate": "2016-09-01",
+      "endDate": "2019-08-12",
+      "courses": [
+      ]
     }
   ],
+  
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "Hawaii Emergency Management Agency",
+      "position": "Emergency Reserve Corps",
+      "website": "https://dod.hawaii.gov/hiema/",
+      "startDate": "2023-02-16",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Activated for Tropical Storm Calvin and county brushfires of 2023",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Archieve files into cloud",
+        "Assist office assistants with procurement",
+        "Take up emergency duties during emergency activation"
       ]
     }
   ],
+  
   "volunteer": [
-    {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
-      "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
-      ]
-    }
+
   ],
+  
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "International Aerial Robotics Competition 2019 Best Tech Paper",
+      "date": "2019",
+      "awarder": "International Aerial Robotics Competition",
+      "summary": "asdf"
     }
   ],
+  
   "references": [
     {
       "name": "Available upon request"
