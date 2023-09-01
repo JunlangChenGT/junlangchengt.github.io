@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Junlang Chen",
-    "label": "Studen't",
+    "label": "Student",
     "picture": "https://github.com/JunlangChenGT.png",
     "email": "junlang@hawaii.edu",
-    "phone": "808-422-2222",
+    "phone": "",
     "website": "https://junlangchengt.github.io",
     "summary": "I am studying in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in 2025.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
