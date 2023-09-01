@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/Basic-4-Function-Calculator-Sharp-768x768-371846492.jpg
 title: "Java Stack Calculator"
 date: 2023
 published: true
@@ -9,12 +9,6 @@ labels:
   - Java
 summary: "A six function calculator with a spanish option"
 ---
-
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
 
 This was for an assignment in the second Java class in the University of Hawaii at Manoa. It's purpose was to improve familiarity of array stacks and linked stacks.
 
