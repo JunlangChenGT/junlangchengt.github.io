@@ -4,7 +4,7 @@ type: project
 image: img/micromouse/micromouse-square.jpg
 title: "Retail Checkout Simulation"
 date: 2023
-published: false
+published: true
 labels:
   - Simulation
   - Java
