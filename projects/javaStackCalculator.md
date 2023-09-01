@@ -14,7 +14,7 @@ This was for an assignment in the second Java class in the University of Hawaii 
 
 There isn't much to it. The stack is used to buffer number inputs and when an operator is entered, the operation is performed on the numbers stored in the stack.
 
-Here is some code that illustrates how we read values from the line sensors:
+Here is the code for printing user instructions to the console in English and Spanish.
 
 ```cpp
 		//instructions for user
