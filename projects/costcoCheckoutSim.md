@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/costco-line-grocery-supermarket-checkout-square.png
 title: "Retail Checkout Simulation"
 date: 2023
 published: true
@@ -11,11 +11,6 @@ labels:
 summary: "A simulation concerning customer wait times during checkout comparing Costco-esque and Ross-esque customer queues."
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
 
 This was an assignment in the second Java class in the University of Hawaii at Manoa. It was supposed to increase proficiency in implementing queue structures.
 
