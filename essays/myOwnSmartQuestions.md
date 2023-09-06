@@ -10,7 +10,7 @@ labels:
   - Answers
   - StackOverflow
 ---
-
+<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/firefox_n2wvJX1P43.png">
 
 ## What is the airspeed of an unlaiden swallow?
 
@@ -229,7 +229,6 @@ I think I covered almost everything, still if you have any doubts and if the pro
 
 Asking good questions on Stack Overflow doesn't always lead to a good answer, but if people decide to drop by to formulate a response, good questions help avoid misappropriated effort into solving the wrong problem. Also it will probably reduce the chances of you getting patronized with a link to basic documentation. Last, if you manage to solve your problem on your own after posting the question, for the love of yourFavoriteDeity, do not edit your post with "nevermind I figured it out" without following up with your solution. Do not give people the frustration that their problem is solved but is kept hidden from them.
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/firefox_n2wvJX1P43.png">
 
 ## Postscript: When not to ask questions on Stack Overflow
 Remember that Stack Overflow is a forum meant for solving general (and sometimes a bit more technical) problems with code. When diving into extremely niche arcane subjects (e.g. undocumented behavior in the character animator in Unity 2019.4.31f1), forums used to hold that niche, but have died around a decade ago when Discord took off. It might be better to find individuals in the community or professional sphere to get where the discourse happens.
