@@ -88,32 +88,6 @@ Alexander Nikitin
 Now look at this thread concerning the process of printing to a [file](https://stackoverflow.com/questions/72564948/how-to-print-to-pdf-using-microsoft-print-to-pdf-in-python-with-win32print):
 
 ```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
 As the title says, I am trying to take a PDF and print it to a new PDF.
 The reason I want to do this is that I am dealing with bulk PDFs and some of them are encrypted with code 4 which PyPDF2 cannot decrypt. So, I am trying to use Microsoft Print to PDF so that I can actually load it with PyPDF2's PdfFileReader and cut off some unnecessary pages.
 This is what I have so far:
