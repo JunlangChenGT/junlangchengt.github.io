@@ -231,4 +231,4 @@ Asking good questions on Stack Overflow doesn't always lead to a good answer, bu
 
 
 ## Postscript: When not to ask questions on Stack Overflow
-Remember that Stack Overflow is a forum meant for solving general (and sometimes a bit more technical) problems with code. When diving into extremely niche arcane subjects (e.g. undocumented behavior in the character animator in Unity 2019.4.31f1, forums used to hold that niche, but have died around a decade ago when Discord took off. It might be better to find individuals in the community or professional sphere to get where the discourse happens.
+Remember that Stack Overflow is a forum meant for solving general (and sometimes a bit more technical) problems with code. When diving into extremely niche arcane subjects ( e.g. undocumented behavior in the character animator in Unity 2019.4.31f1 ), forums used to hold that niche, but have died around a decade ago when Discord took off. It might be better to find individuals in the community or professional sphere to get where the discourse happens.
