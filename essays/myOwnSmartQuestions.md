@@ -85,7 +85,7 @@ Alexander Nikitin
 ```
 
 ## Good Questions
-Now look at this thread concerning the process of printing to a [file](https://stackoverflow.com/questions/72564948/how-to-print-to-pdf-using-microsoft-print-to-pdf-in-python-with-win32print):
+Now look at this [thread](https://stackoverflow.com/questions/72564948/how-to-print-to-pdf-using-microsoft-print-to-pdf-in-python-with-win32print) concerning the process of printing to a file:
 
 ```
 As the title says, I am trying to take a PDF and print it to a new PDF.
