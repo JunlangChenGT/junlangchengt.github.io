@@ -56,4 +56,4 @@ Here is the helper method used to guess the value of a cell.
 		return list;
 	}
 ```
-Source Code: https://github.com/JunlangChenGT/JavaSudokuSolver
+[Source Code](https://github.com/JunlangChenGT/JavaSudokuSolver)
