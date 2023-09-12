@@ -43,4 +43,4 @@ Here is some code for polling customers from the end of the line:
 					
 				}
 ```
-Source code: https://github.com/JunlangChenGT/JavaCheckoutSim
+[Source code](https://github.com/JunlangChenGT/JavaCheckoutSim)
