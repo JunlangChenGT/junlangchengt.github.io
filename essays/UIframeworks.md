@@ -27,7 +27,7 @@ labels:
   Original:
 </p>
 <div>
-  <img width="200px" src="https://github.com/JunlangChenGT/junlangchengt.github.io/blob/main/img/firefox_qbrTt5tshx.png?raw=true" alt="Atomic Rockets Homepage">
+  <img width="1200px" src="https://github.com/JunlangChenGT/junlangchengt.github.io/blob/main/img/firefox_qbrTt5tshx.png?raw=true" alt="Atomic Rockets Homepage">
 </div>
 <p>
   Recreation:
