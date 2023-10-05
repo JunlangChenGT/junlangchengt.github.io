@@ -20,7 +20,7 @@ Bootstrap is frustrating. While it does contain many features which solve many o
 
 My classwork included a few exercises in recreating the homepages of a few websites. I haven't even gone through five and I already see the "sameface" which results from the usage of Bootstrap in its design: a dark or bright horizontal navigation bar on top with the company logo either left or center, static buttons or dropdowns in two columns evenly spaced in the navbar, centered text overlaid on images in the body, and a footer with evenly spaced buttons. Here is a recreation of the top of the Atomic Rockets homepage, which took me a whole five hours to do with bootstrap (It would've taken me a few minutes if I just copied the html/css).
 Original:
-<img width="200px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fih1.redbubble.net%2Fimage.316760221.5828%2Fflat%2C800x800%2C075%2Cf.jpg&f=1&nofb=1&ipt=773920d920a57a5cd55f83952e4d390b83190fa2aac49cdd6f44f9fae0b7ab54&ipo=images">
+<img width="200px" src="https://github.com/JunlangChenGT/junlangchengt.github.io/blob/main/img/firefox_FGtkR7K4BQ.png?raw=true" alt="Atomic Rockets Homepage">
 Recreation:
 <img width="200px" src="">
 So far I've only looked at my creations on a 16x9 aspect ratio monitor so I have not seen the extent of its jankiness on another aspect ratio, or God forbid, mobile. I think I would appreciate Bootstrap a lot more if I did.
