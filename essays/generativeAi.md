@@ -17,7 +17,9 @@ labels:
     For clarification, the course places heavy weighting for a weekly "Workout of the Day", often referred to as WOD. These are all or nothing coding tests designed to be completed within an hour. In preparation for these graded WODs, a practice WOD of similar content is held in class in advance. Near the beginning of the semester, the WODs were mostly concerned with the Javascript language, where the problems were simple enough where generative AI could return passing code on the first try. However, since it was only practice, I would try to get to the solution without using it until I got stuck or the deadline approached, where in a matter of seconds, ChatGPT3.5 presents me a solution which might take me a few tens of minutes to consider. Later in the semester, the course material progressed faster than my proficiency, leading me to start using ChatGPT as an "I win" button until the focus of the class started turning to frameworks, where it were less useful.
 </p>
 <h3>In-class WODs</h3>
+<p>
     I tried not to use generative AI at the beginning of the semester. I managed to keep it up for a few weeks until I got stuck one day and spent 20 minutes signing up for a ChatGPT account. My behavior eventually defaulting to starting off with ChatGPT and spend the rest of the time studying the structure of the code. Usage stopped after WODs shifted focus to frameworks, since they started having more granular instructions. There would be multiple files involved, so the prompts for ChatGPT would be super long and I don't trust it to keep internal consistency throughout its solution.
+</p>
 <h3>Experience WODs</h3>
 <p>
     In addition to the in class WODs, the class has take-home WODs to familiarize students with languages, functions, frameworks, and services. I feel like the use of generative AI isn't even applicable to the ones outside the Javascript exercises.
@@ -50,7 +52,7 @@ labels:
 <h3>Other uses in ICS 314 not listed</h3>
 
 <h2>The Impact on Understanding</h2>
-
+    
 <h2>Outside Applications</h2>
 
 <h2>The Future</h2>
