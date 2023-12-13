@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "Lessons Learned in Software Engineering"
 # All dates must be YYYY-MM-DD format!
-date: 2023-21-11
+date: 2023-12-11
 published: true
 labels:
   - Software Engineering
@@ -40,4 +40,11 @@ Be careful and do not assume the reader understands what “configuration manage
 </p>
 <p>
     I do often look at my friends' personal projects so issue driven project management is nothing new to me. A pattern I've noticed is that the issues for bigger projects are first categorized by function to maintain readability because there may be many tens or even hundreds of issues. There isn't much for me to say about this topic as I can't think of another way to keep track of the development of a project. It'll be akin to explaining why the wheel is often the ideal ground interface for the transportation of mass in an environment with normal force and friction.
+</p>
+<p>
+    For much larger projects that involve many hundreds or thousands of programmers contributing code, such as of FAANG's software as a service products, the "go fast break things" mentality probably stops working at the level of design decisions, where lining up many moving parts become important. 
+</p>
+<h2>Ethics in Software Engineering</h2>
+<p>
+    Given that there was one whole 75 minute classroom section dedicated to discussing a singular ethical problem in the entirety of the course, it seems evident that ethics isn't one of its core aspects. I do not have high hopes for the future, considering almost half the class argued that working to develop shoddy identification software for law enforcement is an ethical act. I find this disturbing, and this is coming from someone who wouldn't bat an eye building missiles that'll be used to blow up children. 
 </p>
