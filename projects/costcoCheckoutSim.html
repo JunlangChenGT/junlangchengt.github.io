@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Retail Checkout Simulation | Junlang Chen | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/JunlangChenGT.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Junlang Chen | Professional Portfolio">
+    <meta property="og:url" content="https://junlangchengt.github.io/projects/costcoCheckoutSim.html">
+    <meta property="og:title" content="Retail Checkout Simulation | Junlang Chen | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/JunlangChenGT.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/bitter.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Retail Checkout Simulation | Junlang Chen | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Junlang Chen</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Retail Checkout Simulation</h1>
+ <p>This was an assignment in the second Java class in the University of Hawaii at Manoa. It was supposed to increase proficiency in implementing queue structures.</p>
+
+<p>The simulation simulates every second in a 24 hour span. There are a total of 5000 customers with randomized arrival and service times to simulate the checkout process at the cashier. A linked list of customer objects represent the checkout line in the Ross case, and 10 queues in the Costco case. Both types have 10 cashiers at the end of the line. For the multi-queue, customers enter the shortest available line but do not move to shorter lines if another line gets shorter. The wait time in line before reaching the cashier is logged and averaged over every customer served.  Over multiple runs of the simulation, the average wait time of the Costo-esque multi line was around 270 seconds while the Ross-esque single line averaged around 170 seconds. This is thought to be the result of the single queue not having cashier downtime.</p>
+
+<p>Here is some code for polling customers from the end of the line:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//pull the customer from the line</span>
+				<span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">cashiers</span><span class="p">.</span><span class="n">length</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+				<span class="p">{</span>
+					<span class="k">if</span><span class="p">(</span> <span class="p">(</span><span class="n">cashiers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="o">-</span><span class="mi">7</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">customersBeingServed</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="n">null</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">queues</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">isEmpty</span><span class="p">()</span> <span class="p">)</span>
+					<span class="p">{</span>
+						<span class="c1">//System.out.println("b" + i);</span>
+						<span class="n">customersBeingServed</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">queues</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">poll</span><span class="p">();</span>
+						<span class="n">cashiers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">currentTime</span> <span class="o">+</span> <span class="n">customersBeingServed</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">serviceTime</span><span class="p">;</span>
+						<span class="n">customersBeingServed</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">waitTime</span> <span class="o">=</span> <span class="n">currentTime</span> <span class="o">-</span> <span class="n">customersBeingServed</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">waitTime</span><span class="p">;</span>
+						<span class="c1">//get wait time by subtracting previous time by current time</span>
+						<span class="n">waitTimeArray</span><span class="p">[</span><span class="n">customersBeingServed</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">indexInCustomersArray</span><span class="p">]</span> <span class="o">=</span> <span class="n">customersBeingServed</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">waitTime</span><span class="p">;</span>
+						<span class="c1">//add the time to the array</span>
+					<span class="p">}</span>
+					
+					<span class="k">if</span><span class="p">(</span> <span class="p">(</span><span class="n">customersBeingServed</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">!=</span> <span class="n">null</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">currentTime</span> <span class="o">==</span> <span class="n">cashiers</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span> 
+					<span class="p">{</span>
+							
+							<span class="n">cashiers</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">7</span><span class="p">;</span>
+							<span class="n">totalCustomersServed</span><span class="o">++</span><span class="p">;</span>
+							<span class="n">customersBeingServed</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">null</span><span class="p">;</span>
+					<span class="p">}</span>
+					
+				<span class="p">}</span>
+</code></pre></div></div>
+<p><a href="https://github.com/JunlangChenGT/JavaCheckoutSim">Source code</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

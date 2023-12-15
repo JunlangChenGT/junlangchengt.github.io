@@ -1,0 +1,114 @@
+{
+  "basics": {
+    "name": "Junlang Chen",
+    "label": "Student",
+    "picture": "https://github.com/JunlangChenGT.png",
+    "email": "junlang@hawaii.edu",
+    "phone": "",
+    "website": "https://junlangchengt.github.io",
+    "summary": "I am studying in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in 2025.",
+    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "JunlangChenGT", "url": "https://github.com/JunlangChenGT" },
+      { "network": "linkedin", "username": "Junlang Chen", "url": "https://www.linkedin.com/in/junlang-chen-a89546189/" }
+    ]
+  },
+  
+  "interests": [
+    { "name": "Aerospace Engineering" },
+    { "name": "Physics" },
+    { "name": "Motorsport" },
+    { "name": "Robotics" },
+    { "name": "3D Modelling" }
+  ],
+  
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Bootstrap 5", "Meteor", "React", "Python" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Kali Linux", "Git/GitHub"]
+    }
+  ],
+  
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2022-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    },
+    {
+      "institution": "University of Texas at Austin, Austin, TX",
+      "area": "Physics, Space Science Track",
+      "studyType": "B.S.",
+      "startDate": "2016-09-01",
+      "endDate": "2019-08-12",
+      "courses": [
+      ]
+    }
+  ],
+  
+  "work": [
+    {
+      "company": "Hawaii Emergency Management Agency",
+      "position": "Emergency Reserve Corps",
+      "website": "https://dod.hawaii.gov/hiema/",
+      "startDate": "2023-02-16",
+      "endDate": "Present",
+      "summary": "Activated for Tropical Storm Calvin and county brushfires of 2023",
+      "highlights": [
+        "Archieve files into cloud",
+        "Assist office assistants with procurement",
+        "Take up emergency duties during emergency activation"
+      ]
+    }
+  ],
+
+  "volunteer": [
+    {
+      "organization": "Texas Aerial Robotics",
+      "website": "",
+      "position": "",
+      "startDate": "2018",
+      "endDate": "2019",
+      "summary": "Designed and assembled quadrotor sensor mounts in solidworks"
+    },
+    {
+      "organization": "First Robotics Competition",
+      "website": "",
+      "position": "",
+      "startDate": "2023",
+      "endDate": "2014",
+      "summary": ""
+    },
+    {
+      "organization": "VEX Robotics Competition",
+      "website": "",
+      "position": "",
+      "startDate": "2009",
+      "endDate": "2015",
+      "summary": ""
+    }
+  ],
+  
+  "awards": [
+    {
+      "title": "International Aerial Robotics Competition 2019 Best Tech Paper",
+      "date": "2019",
+      "awarder": "International Aerial Robotics Competition",
+      "summary": "The International Aerial Robotics Competition runs an annual event where teams from around the world take their custom UAVs to complete challenging, predetermined tasks in a GPS denied environment. The same mission will rerun annually until a team manages to beat it."
+    }
+  ],
+  
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
