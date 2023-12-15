@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://manoa-study-abroad-central.github.io/doc/study-abroad-clipart.jpg
+image: img/study-abroad-clipart.jpg
 title: "Manoa Study Abroad Central"
 date: 2023
 published: true
