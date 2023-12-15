@@ -4,7 +4,7 @@ type: essay
 title: "The Symphony of Code: Unveiling the Elegance of Design Patterns"
 # All dates must be YYYY-MM-DD format!
 date: 2023-11-29
-published: true
+published: false
 labels:
   - Design Patterns
 ---

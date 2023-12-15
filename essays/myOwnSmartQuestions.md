@@ -10,16 +10,16 @@ labels:
   - Answers
   - StackOverflow
 ---
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/firefox_n2wvJX1P43.png">
+<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/firefox_n2wvJX1P43.png" alt="smart questions image">
 
-## What is the airspeed of an unlaiden swallow?
+## What is the airspeed of an unladen swallow?
 
 Stack Overflow, which you probably don't need an introduction to, is one of the largest open source resources for technical solutions and is often the go-to website for troubleshooters. It is also infamous for its userbase, which has a reputation of mocking people when they post threads of poor quality. Do not the cat, we can learn from their mistakes so their suffering won't be in vain.
 
 ## Don't post just yet!
 First of all, most problems wouldn't even need to be posted, as chances are someone else has run into the exact same (or very similar) problem in the past and has already posted it onto Stack Overflow (and that someone has found a good solution to it). A bit of effort in sending a quick query to your search engine of choice can save you much time and scrutiny. 
 
-In February, I was writing a python script to combine multiple signed PDF documents together at my workplace. Adobe Acrobat didn't allow the manipulation of signed PDFs so the only way my coworkers found around this issue was to use the print functionality built into windows to print out the signed PDFs onto multiple unsigned PDFs and then combining them from there. This was a somewhat tedious process as they would have to print and name n files for each combining process where n is the number of signed documents which needed to be combined together. Naturally I turned to the easiest programming language I know with good package usability.
+In February, I was writing a python script to combine multiple signed PDF documents together at my workplace. Adobe Acrobat didn't allow the manipulation of signed PDFs so the only way my coworkers found around this issue was to use the print functionality built into windows to print out the signed PDFs onto multiple unsigned PDFs and then combining them from there. This was a somewhat tedious process as they would have to print and name n files for each combining process where n is the number of signed documents which needed to be combined. Naturally I turned to the easiest programming language I know with good package usability.
 
 ## Bad Questions
 One of the problems is to combine multiple files together once they're editable. Look at the following [thread](https://stackoverflow.com/questions/55660847/how-to-stitch-two-pdf-pages-into-one-in-python?noredirect=1&lq=1)
