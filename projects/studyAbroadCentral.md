@@ -16,7 +16,7 @@ summary: "A web application which contains information concerning study abroad p
 This is a web application created over the course of three weeks for a group project in an introductory software engineering class. It is based off of a React-Meteor template called [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/).
 
 There are three organizations that host information concerning study abroad programs for students studying at UH Manoa. 
-<div class="text-center p-4">
+<div class="text-center p-4 fluid">
   <img width="300px" src="https://manoa-study-abroad-central.github.io/doc/M3-Programs-MIX1.png" >
   <img width="300px" src="https://manoa-study-abroad-central.github.io/doc/M3-Programs-SAC.png" >
   <img width="300px" src="https://manoa-study-abroad-central.github.io/doc/M3-Programs-NSE.png" >
