@@ -70,42 +70,30 @@
     }
   ],
 
-  "educat": [
+  "volunteer": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2025)",
-      "studyType": "B.S.",
-      "startDate": "2022-09-01",
-      "endDate": "Present",
-      "courses": [
-      ]
-    },
-    {
-      "institution": "University of Texas at Austin, Austin, TX",
-      "area": "Physics, Space Science Track",
-      "studyType": "B.S.",
-      "startDate": "2016-09-01",
-      "endDate": "2019-08-12",
-      "courses": [
-      ]
-    }
-  ],
-
-  "activities": [
-    {
-      "title": "Texas Aerial Robotics",
+      "organization": "Texas Aerial Robotics",
+      "website": "",
+      "position": "",
       "startDate": "2018",
-      "endDate": "2019"
+      "endDate": "2019",
+      "summary": "Designed and assembled quadrotor sensor mounts in solidworks"
     },
     {
-      "title": "First Robotics Competition",
+      "organization": "First Robotics Competition",
+      "website": "",
+      "position": "",
       "startDate": "2023",
-      "endDate": "2014"
+      "endDate": "2014",
+      "summary": ""
     },
     {
-      "title": "VEX Robotics Competition",
+      "organization": "VEX Robotics Competition",
+      "website": "",
+      "position": "",
       "startDate": "2009",
-      "endDate": "2015"
+      "endDate": "2015",
+      "summary": ""
     }
   ],
   
