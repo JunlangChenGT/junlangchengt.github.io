@@ -9,26 +9,7 @@ labels:
   - Software Engineering
 ---
 <p>
-    Now that you are almost done with this class, I would like you to write on last essay that summarizes what you’ve learned about software engineering.
-
-Because the technology stack for this class is designed for the creation of web applications, some students think this class is simply about web application development. Of course, web application development is a skill you’ve acquired in this class, but the more fundamental goal of this class is for you to acquire experience with fundamental software engineering concepts including:
-
-    Open Source Software Development
-    Configuration Management
-    Functional Programming
-    Development Environments
-    Coding Standards
-    User Interface Frameworks
-    Agile Project Management
-    Design Patterns
-    Ethics in Software Engineering
-
-For this essay, reflect on what you learned about software engineering in general during this course, by taking two or three of these topics and discussing what they mean beyond web application development. For example, you learned about a style of Agile Project Management called Issue Driven Project Management. Could you see yourself using that project management style for a project not involving web applications? If so, then discuss what Agile Project Management is, what Issue Driven Project Management is, and how you could see yourself applying it to different project contexts.
-
-Be careful and do not assume the reader understands what “configuration management” or “design patterns” or whatever means. You must define these terms if you are using them.
-</p>
-<p>
-    My introductory software engineering course curriculum had base HTML and CSS, JavaScript, JavaScript's Underscore library, the Bootstrap framework, Facebook's React framework, and the Meteor-React framework for MongoDB integration. Apparently learning process of these web development tools is supposed to generalize to the rest of software engineering.
+    My introductory software engineering course curriculum had base HTML and CSS, JavaScript, JavaScript's Underscore library, the Bootstrap framework, Facebook's React framework, and the Meteor-React framework for MongoDB integration. Apparently learning process of these web development tools is supposed to generalize to the rest of software engineering. I don't feel like it has transferred over at all. Either I learn something that's specific to front end web development, or I learn that web development uses the same tools and techniques used for other aspects of software engineering.
 </p>
 <h2>Development Environments</h2>
 <p>
@@ -46,5 +27,5 @@ Be careful and do not assume the reader understands what “configuration manage
 </p>
 <h2>Ethics in Software Engineering</h2>
 <p>
-    Given that there was one whole 75 minute classroom section dedicated to discussing a singular ethical problem in the entirety of the course, it seems evident that ethics isn't one of its core aspects. I do not have high hopes for the future, considering almost half the class argued that working to develop shoddy identification software for law enforcement is an ethical act. I find this disturbing, and this is coming from someone who wouldn't bat an eye building missiles that'll be used to blow up children. 
+    Given that there was one whole 75 minute classroom section dedicated to discussing a singular ethical problem in the entirety of the course, it seems evident that ethics isn't one of its core aspects. Once I might have thought that the current generation of computer science majors would have some discernment concerning what types of employers they would work under, because they must have seen the problems the tech sector caused in the course of their lives. Such illusions were cleared when almost half the class argued that working to develop shoddy identification software for law enforcement is an ethical act. 
 </p>
