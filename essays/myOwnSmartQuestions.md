@@ -227,7 +227,7 @@ I think I covered almost everything, still if you have any doubts and if the pro
 
 ## Conclusion
 
-Asking good questions on Stack Overflow doesn't always lead to a good answer, but if people decide to drop by to formulate a response, good questions help avoid misappropriated effort into solving the wrong problem. Also it will probably reduce the chances of you getting patronized with a link to basic documentation. Last, if you manage to solve your problem on your own after posting the question, for the love of yourFavoriteDeity, do not edit your post with "nevermind I figured it out" without following up with your solution. Do not give people the frustration that their problem is solved but is kept hidden from them.
+Asking good questions on Stack Overflow doesn't always lead to a good answer, but if people decide to drop by to formulate a response, good questions help avoid misappropriated effort into solving the wrong problem. Also, it will probably reduce the chances of you getting patronized with a link to basic documentation. Last, if you manage to solve your problem on your own after posting the question, for the love of yourFavoriteDeity, do not edit your post with "nevermind I figured it out" without following up with your solution. Do not give people the frustration that their problem is solved but is kept hidden from them.
 
 
 ## Postscript: When not to ask questions on Stack Overflow

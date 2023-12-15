@@ -6,8 +6,8 @@ title: "Corcerning UI Frameworks"
 date: 2023-10-04
 published: true
 labels:
-  - html
-  - css
+  - HTML
+  - CSS
   - frameworks
 ---
 
