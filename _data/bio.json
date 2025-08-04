@@ -19,7 +19,8 @@
     { "name": "Physics" },
     { "name": "Motorsport" },
     { "name": "Robotics" },
-    { "name": "3D Modelling" }
+    { "name": "3D Modelling" },
+    { "name": "Data Science" }
   ],
   
   "skills": [
