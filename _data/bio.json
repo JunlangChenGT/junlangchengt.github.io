@@ -6,7 +6,7 @@
     "email": "junlang@hawaii.edu",
     "phone": "",
     "website": "https://junlangchengt.github.io",
-    "summary": "I am studying in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in 2025.",
+    "summary": "I studied in the Department of Information and Computer Sciences at the University of Hawaii. I graduated in fall of 2024.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "JunlangChenGT", "url": "https://github.com/JunlangChenGT" },
@@ -25,7 +25,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Bootstrap 5", "Meteor", "React", "Python" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Bootstrap 5", "Meteor", "React", "Python", "LISP", "" ]
     },
     {
       "name": "Toolsets/OS",
@@ -36,10 +36,10 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2025)",
+      "area": "Computer Science",
       "studyType": "B.S.",
       "startDate": "2022-09-01",
-      "endDate": "Present",
+      "endDate": "2024-12-19",
       "courses": [
       ]
     },
@@ -60,9 +60,10 @@
       "position": "Emergency Reserve Corps",
       "website": "https://dod.hawaii.gov/hiema/",
       "startDate": "2023-02-16",
-      "endDate": "Present",
+      "endDate": "2025-05-03",
       "summary": "Activated for Tropical Storm Calvin and county brushfires of 2023",
       "highlights": [
+        "Lead payroll",
         "Archieve files into cloud",
         "Assist office assistants with procurement",
         "Take up emergency duties during emergency activation"
