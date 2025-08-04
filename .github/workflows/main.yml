@@ -8,18 +8,39 @@ on:
 jobs:
   github-pages:
     runs-on: ubuntu-latest
+    
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/cache@v4
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-ruby@v1
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      - uses: limitusus/json-syntax-check@v1
+          ruby-version: '3.1'
+          
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install --path vendor/bundle
+          
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          pattern: "\\bio.json$"
-      - uses: helaili/jekyll-action@2.5.0    # Choose any one of the Jekyll Actions
-        with:                                # Some relative inputs of your action
-          token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: 'gh-pages'
+          github_token: ${{ secrets.GITHUB_TOKEN}}
+          publish_dir: ./_site
+
+      
+     # - uses: actions/cache@v4
+     #   with:
+     #     path: vendor/bundle
+     #     key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+     #     restore-keys: |
+     #       ${{ runner.os }}-gems-
+     # - uses: limitusus/json-syntax-check@v1
+     #   with:
+     #     pattern: "\\bio.json$"
+     # - uses: helaili/jekyll-action@2.5.0    # Choose any one of the Jekyll Actions
+     #   with:                                # Some relative inputs of your action
+     #     token: ${{ secrets.GITHUB_TOKEN }}
+     #     target_branch: 'gh-pages'
